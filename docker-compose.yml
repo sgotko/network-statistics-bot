@@ -1,0 +1,8 @@
+
+services:
+  bot_gw_node:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bot_gw_node
+    restart: always
